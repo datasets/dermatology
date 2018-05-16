@@ -1,235 +1,229 @@
 {
-    "sources": [
-        {
-            "title": "OpenML - dermatology",
-            "path": "https://www.openml.org/d/35"
-        }
-    ],
     "name": "dermatology",
     "resources": [
         {
-            "format": "csv",
-            "encoding": "utf-8",
-            "name": "dermatology",
-            "profile": "tabular-data-resource",
             "schema": {
                 "fields": [
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "erythema",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "erythema"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "scaling",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "scaling"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "definite_borders",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "definite_borders"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "itching",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "itching"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "koebner_phenomenon",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "koebner_phenomenon"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "polygonal_papules",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "polygonal_papules"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "follicular_papules",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "follicular_papules"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "oral_mucosal_involvement",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "oral_mucosal_involvement"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "knee_and_elbow_involvement",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "knee_and_elbow_involvement"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "scalp_involvement",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "scalp_involvement"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "family_history",
-                        "description": "0,1"
+                        "description": "0,1",
+                        "format": "default",
+                        "name": "family_history"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "melanin_incontinence",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "melanin_incontinence"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "eosinophils_in_the_infiltrate",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "eosinophils_in_the_infiltrate"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "pnl_infiltrate",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "pnl_infiltrate"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "fibrosis_of_the_papillary_dermis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "fibrosis_of_the_papillary_dermis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "exocytosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "exocytosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "acanthosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "acanthosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "hyperkeratosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "hyperkeratosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "parakeratosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "parakeratosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "clubbing_of_the_rete_ridges",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "clubbing_of_the_rete_ridges"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "elongation_of_the_rete_ridges",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "elongation_of_the_rete_ridges"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "thinning_of_the_suprapapillary_epidermis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "thinning_of_the_suprapapillary_epidermis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "spongiform_pustule",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "spongiform_pustule"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "munro_microabcess",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "munro_microabcess"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "focal_hypergranulosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "focal_hypergranulosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "disappearance_of_the_granular_layer",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "disappearance_of_the_granular_layer"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "vacuolisation_and_damage_of_basal_layer",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "vacuolisation_and_damage_of_basal_layer"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "spongiosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "spongiosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "saw-tooth_appearance_of_retes",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "saw-tooth_appearance_of_retes"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "follicular_horn_plug",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "follicular_horn_plug"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "perifollicular_parakeratosis",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "perifollicular_parakeratosis"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "inflammatory_monoluclear_inflitrate",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "inflammatory_monoluclear_inflitrate"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "band-like_infiltrate",
-                        "description": "0,1,2,3"
+                        "description": "0,1,2,3",
+                        "format": "default",
+                        "name": "band-like_infiltrate"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "age",
-                        "description": ""
+                        "description": "",
+                        "format": "default",
+                        "name": "age"
                     },
                     {
-                        "format": "default",
                         "type": "integer",
-                        "name": "class",
-                        "description": "1,2,3,4,5,6"
+                        "description": "1,2,3,4,5,6",
+                        "format": "default",
+                        "name": "class"
                     }
                 ],
                 "missingValues": [
                     ""
                 ]
             },
+            "name": "dermatology",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
             "mediatype": "text/csv",
+            "format": "csv",
             "path": "data\\dermatology.csv"
         }
     ],
@@ -239,6 +233,12 @@
             "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
             "name": "odc-pddl",
             "path": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "sources": [
+        {
+            "title": "OpenML - dermatology",
+            "path": "https://www.openml.org/d/35"
         }
     ]
 }

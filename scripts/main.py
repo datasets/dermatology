@@ -9,6 +9,7 @@ with open("../data/dermatology.csv", "w") as output_file:
             apos = [pos for pos, char in enumerate(decoded_line) if char == "\'"]
             attributes.append(decoded_line[apos[0]: apos[1]].replace('\'', ''))
         if data_found:
+            decoded_line = decoded_line.replace("?","")
             output_file.write(decoded_line.lower() + '\n')
 
         if decoded_line == "@data":

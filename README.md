@@ -1,4 +1,4 @@
-This dataset contains instances of dermatology cancer instances.
+This dataset contains instances of dermatology cancer occurrences.
 
 ## Data
 

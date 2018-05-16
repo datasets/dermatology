@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 
 with open("../data/dermatology.csv", "w") as output_file:
-    data_found = True
+    data_found = False
     attributes = []
     for line in urlopen("https://www.openml.org/data/download/35/dataset_35_dermatology.arff"):
         decoded_line = line.decode('UTF-8').strip()

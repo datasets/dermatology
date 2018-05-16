@@ -22,6 +22,10 @@ Bilkent University,
 Department of Computer Engineering and Information Science, 
 06533 Ankara, Turkey
 
+Data is located in directory `data`
+
+`data/dermatology.csv`
+
 ## Preparation
 
 Scripts are in directory `scripts`

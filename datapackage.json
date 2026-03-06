@@ -224,11 +224,11 @@
             "encoding": "utf-8",
             "mediatype": "text/csv",
             "format": "csv",
-            "path": "data\\dermatology.csv"
+            "path": "data/dermatology.csv"
         }
     ],
     "title": "Dermatology",
-    "licences": [
+    "licenses": [
         {
             "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
             "name": "odc-pddl",
